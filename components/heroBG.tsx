@@ -1,18 +1,7 @@
 const HeroBG = () => {
   return (
     <div className="absolute inset-0 z-0">
-      <div
-        className="
-        absolute
-        right-0
-        top-1/2
-        h-175
-        w-175
-        -translate-y-1/2
-        rounded-full
-        blur-[150px]
-        bg-[#BFA46F]/20"
-      />
+      
       <div
         className="
         absolute
