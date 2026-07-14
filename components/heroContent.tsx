@@ -28,42 +28,20 @@ const HeroContent = () => {
         <div className="mt-12 flex items-center gap-6">
           <Link
             href="#"
-            className="
-        rounded-full
-        border
-        border-secondary-foreground
-        px-8
-        py-4
-        text-sm
-        uppercase
-        tracking-[0.15em]
-        text-foreground
-        transition-all
-        duration-300
-        hover:bg-secondary-foreground
-        hover:text-black
-      "
+            className="rounded-full border border-secondary-foreground px-8 py-4 text-sm uppercase tracking-[0.15em] text-foreground transition-all duration-300 hover:bg-secondary-foreground hover:text-black"
           >
             Explore Collection
           </Link>
 
           <Link
             href="#"
-            className="
-        group
-        flex
-        items-center
-        gap-2
-        text-sm
-        uppercase
-        tracking-[0.15em]
-        text-zinc-300
-        transition-colors
-        hover:text-foreground
-      "
+            className="group flex items-center gap-2 text-sm uppercase tracking-[0.15em] text-zinc-300 transition-colors hover:text-foreground"
           >
             Our Story
-            <ArrowRight className="transition-transform duration-300 group-hover:translate-x-1" size={15}/>
+            <ArrowRight
+              className="transition-transform duration-300 group-hover:translate-x-1"
+              size={15}
+            />
           </Link>
         </div>
       </div>

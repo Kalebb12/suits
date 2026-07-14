@@ -126,6 +126,23 @@
     @apply bg-background text-foreground;
   }
   html {
-    @apply font-sans overflow-hidden;
+    @apply font-sans;
+  }
+}
+
+@keyframes pulseGold {
+  0% {
+     scale :1;
+    opacity: .8;
+  }
+
+  50% {
+     scale : 1.25;
+    opacity: 1;
+  }
+
+  100% {
+     scale : 1;
+    opacity: .8;
   }
 }
