@@ -1,3 +1,4 @@
+import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 
 type Props = {
@@ -42,8 +43,8 @@ export default function CollectionCard({
           {description}
         </p>
 
-        <button className="mt-12 w-fit rounded-full border border-[#D8C08A] px-8 py-4 uppercase tracking-[0.2em] transition hover:bg-[#D8C08A] hover:text-black">
-          Explore →
+        <button className="mt-12 group w-fit flex gap-3 items-center rounded-full border border-[#D8C08A] px-8 py-4 uppercase tracking-[0.2em] transition hover:bg-[#D8C08A] hover:text-black">
+          Explore <ArrowRight size={15} className="transition-transform duration-300 group-hover:translate-x-1" />
         </button>
       </div>
 
